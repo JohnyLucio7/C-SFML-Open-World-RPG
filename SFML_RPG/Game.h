@@ -27,11 +27,23 @@ public:
 	Game();
 	virtual ~Game();
 
-	//Functions 
+	//Functions
+
+	//Regular
+	void endApplication();
+
+	//Update
+
 	void updateDt();
 	void updateSFMLEvents();
 	void update();
+
+	//Render
+
 	void render();
+
+	//Core
+
 	void run();
 };
 
